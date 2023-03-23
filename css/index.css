@@ -1,0 +1,261 @@
+*{box-sizing: border-box;}
+body{
+    font-family: 'Fjalla One', sans-serif;
+}
+header{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    clear: both;
+    float: left;
+    background-color: rgb(102, 118, 138);
+    color: white;
+}
+.left{
+    height: 50px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.center{
+    height: 50px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.right{
+    height: 50px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+    float: left;
+}
+main{
+    height: 1600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.grit{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+    background-color: rgb(102, 118, 138);
+    color: white;
+}
+.why{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.visit{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+    background-color: rgb(219, 223, 226);
+}
+.volunteer{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    clear: both;
+    float: left;
+    background-color: rgb(22, 31, 42)
+}
+.gym{
+    height: 500px;
+    width: 50%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.hireUs{
+    height: 500px;
+    width: 50%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.topfoot{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.bottomfoot{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.leftfoot{
+    height: 150px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.sevenfoot{
+    height: 150px;
+    width: 40%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.rightfoot{
+    height: 150px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.social{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.map{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.contribute{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.tax{
+    height: 50px;
+    width: 70%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.bottomlogo{
+    height: 50px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+}
+/* content edits */
+.left li{
+    list-style: none;
+    float: left;
+    margin-left: 4%;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+}
+.right button{
+    float: right;
+}
+.grit h1{
+    font-size: 5rem;
+    margin-left: 7%;
+    text-align: center;
+}
+.grit p{
+    text-align: center;
+}
+.grit span{
+    font-size: 2rem;
+    margin-left: 40%;
+}
+.grit a{
+    color: white;
+    text-decoration: none;
+}
+.why h2{
+    margin-left: 46%;
+    font-size: 2rem;
+}
+.why p{
+    margin-left: 2%;
+}
+.visit h3{
+    margin-left: 40%;
+    font-size: 1.7rem;
+}
+.visit p{
+    margin-left: 3%;
+}
+.volunteer h3{
+    font-size: 2rem;
+    margin-left: 36%
+}
+.volunteer p{
+    margin-left: 3%;
+}
+footer{
+    color: white;
+}
+footer li{
+    list-style: none;
+    color: white;
+    float: left;
+}
+footer a{
+    color: white;
+}
+.social li{
+    margin-left: 4%
+}
+.map h5{
+    margin-top: 1%;
+    margin-bottom: -3%;
+}
+.map li{
+    margin-left: 4%;
+}
+.contribute h5{
+    margin-top: 1%;
+    margin-bottom: -3%;
+}
+.contribute li{
+    margin-left: 4%;
+}
+.contribute a{
+    text-decoration: none;
+}
+/* images */
+.center img{
+    height: 100%;
+    margin-left: 43%;
+}
+.bottomlogo img{
+    height: 100%;
+    float: right;
+}
+.visit img{
+    margin-left: 24%;
+    margin-top: 4%;
+}
+
+/* media quiries */
+@media (max-width: 1160px){
+    .visit img{
+        margin-left: 0;
+        margin-top: 4%;
+    }
+    .visit h3{margin-left: 0;}
+    .visit{text-align: center;}
+}
+@media (max-width: 945px){
+    .visit img{height: 30%;}
+    .volunteer h3{
+        margin-left: 0%;
+        text-align: center;
+    }
+    footer p{
+        font-size: .7rem;
+    }
+}
+@media (max-width: 600px){
+    footer{display: none;}
+}
